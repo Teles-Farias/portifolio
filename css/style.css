@@ -217,3 +217,27 @@ body{
         transform: translateY(100);
     }
 }
+@media (max-width:450px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    .home {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .header{
+        display: flex;
+        align-items: center;
+        
+    }
+}
