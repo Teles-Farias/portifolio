@@ -238,6 +238,10 @@ body{
     .header{
         display: flex;
         align-items: center;
-        
+
     }
+    .home-img img{
+        max-width: 350px;
+        opacity: 0;
+}
 }
